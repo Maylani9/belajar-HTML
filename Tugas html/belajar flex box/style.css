@@ -1,0 +1,48 @@
+.block-element {
+  display: block;
+  background-color: pink;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
+.inline-element {
+  display: inline;
+  background-color: rgb(64, 226, 43);
+  color: black;
+  padding: 5px;
+  margin: 5px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: coral;
+  padding: 10px;
+  margin-top: 20px;
+}
+.flex-item {
+  background-color: pink;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  flex: 1;
+}
+a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+li:nth-child(odd) {
+  background-color: rgb(247, 125, 125);
+  color: black;
+  padding: 5px;
+}
+.special-text::before {
+  content: " start: ";
+  font-weight: bold;
+}
+.special-text::after {
+  content: " :end ";
+  font-weight: bold;
+}
