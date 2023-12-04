@@ -1,0 +1,53 @@
+.kotak {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border: 50px solid magenta;
+  border-top: 50px solid grey;
+  border-radius: 100%;
+  background-color: pink;
+  animation: animasi 2s linear infinite, animasi1 2s linear infinite;
+}
+@keyframes animasi {
+  0% {
+    color: aqua;
+    font-size: 20px;
+    background-color: maroon;
+    transform: translateX(0px);
+  }
+  25% {
+    color: blueviolet;
+    font-size: 40px;
+    background-color: cadetblue;
+    transform: translateY(25px);
+  }
+  50% {
+    color: darkcyan;
+    font-size: 60px;
+    background-color: chartreuse;
+    transform: translateX(50px);
+  }
+  75% {
+    color: yellowgreen;
+    font-size: 40px;
+    background-color: brown;
+    transform: translateY(75px);
+  }
+  100% {
+    color: rgb(153, 119, 119);
+    font-size: 20px;
+    background-color: lightsalmon;
+    transform: translateX(0px);
+  }
+}
+@keyframes animasi1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
